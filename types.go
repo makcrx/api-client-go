@@ -104,10 +104,10 @@ type APIKey struct {
 
 // Property type.
 type Property struct {
-	Code  string   `json:"code,omitempty"`
-	Name  string   `json:"name,omitempty"`
-	Value string   `json:"value,omitempty"`
-	Sites []string `json:"Sites,omitempty"`
+	Code  string        `json:"code,omitempty"`
+	Name  string        `json:"name,omitempty"`
+	Value interface{}   `json:"value,omitempty"`
+	Sites []string      `json:"Sites,omitempty"`
 }
 
 // IdentifiersPair type.
