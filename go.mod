@@ -1,4 +1,4 @@
-module github.com/retailcrm/api-client-go/v2
+module github.com/makcrx/api-client-go/v2
 
 go 1.13
 
